@@ -5,6 +5,13 @@ export const categories = [
     "pathology": "normative void", 
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
+  },
+  {
+    "code": "AT",
+    "name": "Alignment Traits",
+    "pathology": "",
+    "color": "#E6FFE9",
+    "description": "Alignment traits are general-purpose habits of thought, feeling and action that promote alignment and cooperation with others."
   }
 ];
 
@@ -143,6 +150,153 @@ export const cards = [
       "organizational": "Low return on investment.",
       "professional": "Scripted care, poor adaptability.",
       "machine": "Overfitting, poor performance in the wild."
+    }
+  },
+  {
+    "category": "AT",
+    "name": "integrity",
+    "definition": "Adhering to moral and ethical principles.",
+    "people": "Being honest and consistent in one's actions even when no one is watching.",
+    "organizational": "Operating ethically, ensuring that it's decisions align with its stated values.",
+    "professionals": "Upholding ethical standards of the profession even under pressure.",
+    "machine": "Acting in accordance with ethical principles programmed into it.",
+    "failureModes": {
+      "human": "A person lies on their resume to get a job.",
+      "organizational": "A company says it values sustainability but engages in environmentally harmful practices.",
+      "experts": "An expert accepts bribes to overlook safety violations.",
+      "machine": "A machine provides inconsistent responses."
+    },
+    "expand": {
+      "human": "Doing the right thing because it's right, not for reward, their words and actions match, others can rely on them to stand by what's fair.",
+      "organizational": "Doing what it says it will do even when it costs something.",
+      "experts": "Being honest about what one knows and what one doesn't, uses one's knowledge to help rather than mislead.",
+      "machine": "Should be consistent, shouldn't change its behaviour unfairly, shouldn't be easy to misuse."
+    }
+  },
+  {
+    "category": "AT",
+    "name": "accountability",
+    "definition": "Being responsible for one's actions and their consequences.",
+    "people": "Owning up to mistakes and making amends when necessary.",
+    "organizational": "Taking responsibility for its impact on stakeholders and the environment.",
+    "professionals": "Documenting and justifying key decisions, making them auditable and reversible.",
+    "machine": "The developer is responsible for the machine's actions.",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "empathy",
+    "definition": "The ability to understand and share the feelings of others.",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "adaptability",
+    "definition": "The ability to adjust to new environments.",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "fairness",
+    "definition": "loremipsum",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "respect",
+    "definition": "loremipsum",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "humility",
+    "definition": "loremipsum",
+    "people": "loremipsum",
+    "organizational": "loremipsum",
+    "professionals": "loremipsum",
+    "machine": "loremipsum",
+    "failureModes": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
+    },
+    "expand": {
+      "human": "loremipsum",
+      "organizational": "loremipsum",
+      "experts": "loremipsum",
+      "machine": "loremipsum"
     }
   }
 ]
